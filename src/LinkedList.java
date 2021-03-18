@@ -13,9 +13,19 @@ public class LinkedList{
         }
     }
 
-    public void printAll(){
+
+    //TODO: Create get(int index) method that returns that data at that point
+
+
+    //TODO: Create insert(int index, int data) method that adds a new node at a given index
+
+    //TODO: create delete(int index) method that removes a node from the list
+
+    //TODO: Create a size() method that measure.
+
+    public void printAll() {
         Node current = head;
-        while (current.next != null){
+        while (current.next != null) {
             System.out.println(current.data);
             current = current.next;
         }
